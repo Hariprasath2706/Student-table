@@ -1,0 +1,14 @@
+CREATE TABLE students28 (
+  name VARCHAR(100),
+  age INT,
+  mark INT,
+  email VARCHAR(220)
+);
+ALTER TABLE students28
+ADD phone_no BIGINT;
+INSERT INTO students28 VALUES ('Hari', 18, 90, 'hari@27', 7777777777);
+SELECT * FROM students28;
+UPDATE students28
+SET age = 19
+WHERE age = 18;
+SELECT * FROM students28;
